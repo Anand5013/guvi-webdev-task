@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="profile.js?v=1"></script>
+</head>
+
+<body>
+  <center>
+    <div class="generic-form">
+      <h2 id="profile-heading"></h2>
+      <hr>
+      <div class="form-group">
+        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required="required">
+      </div>
+      <div class="form-group">
+        <input type="date" class="form-control" id="dob" name="dob" placeholder="Date of Birth" required="required">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="address" name="address" placeholder="Address" required="required"></textarea>
+      </div>
+      <div class="form-group">
+        <button id="update-btn" class="btn btn-primary btn-lg">Update Details</button>
+      </div>
+    </div>
+    <div class="generic-form">
+      <h2>Updated details are:</h2>
+      <div id="updated-details">
+        Phone: -<br>
+        DOB: -<br>
+        Age: -<br>
+        Address: -
+      </div>
+      <div class="hint-text"><a href="login.html">Logout</a></div>
+    </div>
+  </center>
+</body>
+
+</html>
